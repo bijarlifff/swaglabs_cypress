@@ -1,0 +1,22 @@
+{
+	"name": "swaglabs",
+	"version": "1.0.0",
+	"description": "FE Testing (BDD)",
+	"main": "index.js",
+	"author": "abizar",
+	"license": "MIT",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"cy:verify": "cypress verify"
+	},
+	"devDependencies": {
+		"@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+		"cypress": "^14.3.2",
+		"prettier": "^3.5.3"
+	},
+	"dependencies": {
+		"@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+		"@cypress/browserify-preprocessor": "^3.0.2"
+	}
+}
